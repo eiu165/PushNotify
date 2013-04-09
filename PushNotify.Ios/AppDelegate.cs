@@ -5,7 +5,7 @@ using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
-namespace PushNotify
+namespace PushNotify.Ios
 {
 	// The UIApplicationDelegate for the application. This class is responsible for launching the 
 	// User Interface of the application, as well as listening (and optionally responding) to 
@@ -15,7 +15,7 @@ namespace PushNotify
 	{
 		// class-level declarations
 		UIWindow window;
-		PushNotifyViewController viewController;
+		AlertHistoryViewController viewController;
 
 		//
 		// This method is invoked when the application has loaded and is ready to run. In this 
@@ -28,7 +28,7 @@ namespace PushNotify
 		{
 			window = new UIWindow (UIScreen.MainScreen.Bounds);
 			
-			viewController = new PushNotifyViewController ();
+			viewController = new AlertHistoryViewController ();
 			window.RootViewController = viewController;
 			window.MakeKeyAndVisible ();
 			

@@ -5,10 +5,10 @@
 //
 using MonoTouch.Foundation;
 
-namespace PushNotify
+namespace PushNotify.Ios
 {
-	[Register ("PushNotifyViewController")]
-	partial class PushNotifyViewController
+	[Register ("PushNotify_IosViewController")]
+	partial class PushNotify_IosViewController
 	{
 		void ReleaseDesignerOutlets ()
 		{

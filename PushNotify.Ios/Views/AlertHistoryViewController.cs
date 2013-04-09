@@ -1,14 +1,15 @@
+
 using System;
 using System.Drawing;
 
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
-namespace PushNotify
+namespace PushNotify.Ios
 {
-	public partial class PushNotifyViewController : UIViewController
+	public partial class AlertHistoryViewController : UIViewController
 	{
-		public PushNotifyViewController () : base ("PushNotifyViewController", null)
+		public AlertHistoryViewController () : base ("AlertHistoryViewController", null)
 		{
 		}
 		
@@ -25,12 +26,6 @@ namespace PushNotify
 			base.ViewDidLoad ();
 			
 			// Perform any additional setup after loading the view, typically from a nib.
-		}
-		
-		public override bool ShouldAutorotateToInterfaceOrientation (UIInterfaceOrientation toInterfaceOrientation)
-		{
-			// Return true for supported orientations
-			return (toInterfaceOrientation != UIInterfaceOrientation.PortraitUpsideDown);
 		}
 	}
 }

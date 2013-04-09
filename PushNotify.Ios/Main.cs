@@ -5,7 +5,7 @@ using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
-namespace PushNotify
+namespace PushNotify.Ios
 {
 	public class Application
 	{

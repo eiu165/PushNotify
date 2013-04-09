@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushNotify", "PushNotify\PushNotify.csproj", "{F04785E6-C9CB-413F-9700-5C06BF14CDC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushNotify.ViewModels", "PushNotify.ViewModels\PushNotify.ViewModels.csproj", "{5906FAF2-7B01-4048-97FB-A377E5F08262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushNotify.Ios", "PushNotify.Ios\PushNotify.Ios.csproj", "{A9DB1D77-CE06-428D-ABE6-156981BF6343}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,20 +15,32 @@ Global
 		AppStore|iPhone = AppStore|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F04785E6-C9CB-413F-9700-5C06BF14CDC9}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
-		{F04785E6-C9CB-413F-9700-5C06BF14CDC9}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
-		{F04785E6-C9CB-413F-9700-5C06BF14CDC9}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
-		{F04785E6-C9CB-413F-9700-5C06BF14CDC9}.AppStore|iPhone.Build.0 = AppStore|iPhone
-		{F04785E6-C9CB-413F-9700-5C06BF14CDC9}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{F04785E6-C9CB-413F-9700-5C06BF14CDC9}.Debug|iPhone.Build.0 = Debug|iPhone
-		{F04785E6-C9CB-413F-9700-5C06BF14CDC9}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{F04785E6-C9CB-413F-9700-5C06BF14CDC9}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{F04785E6-C9CB-413F-9700-5C06BF14CDC9}.Release|iPhone.ActiveCfg = Release|iPhone
-		{F04785E6-C9CB-413F-9700-5C06BF14CDC9}.Release|iPhone.Build.0 = Release|iPhone
-		{F04785E6-C9CB-413F-9700-5C06BF14CDC9}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{F04785E6-C9CB-413F-9700-5C06BF14CDC9}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{5906FAF2-7B01-4048-97FB-A377E5F08262}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{5906FAF2-7B01-4048-97FB-A377E5F08262}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{5906FAF2-7B01-4048-97FB-A377E5F08262}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{5906FAF2-7B01-4048-97FB-A377E5F08262}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{5906FAF2-7B01-4048-97FB-A377E5F08262}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{5906FAF2-7B01-4048-97FB-A377E5F08262}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{5906FAF2-7B01-4048-97FB-A377E5F08262}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5906FAF2-7B01-4048-97FB-A377E5F08262}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5906FAF2-7B01-4048-97FB-A377E5F08262}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{5906FAF2-7B01-4048-97FB-A377E5F08262}.Release|iPhone.Build.0 = Release|Any CPU
+		{5906FAF2-7B01-4048-97FB-A377E5F08262}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5906FAF2-7B01-4048-97FB-A377E5F08262}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{A9DB1D77-CE06-428D-ABE6-156981BF6343}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{A9DB1D77-CE06-428D-ABE6-156981BF6343}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{A9DB1D77-CE06-428D-ABE6-156981BF6343}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{A9DB1D77-CE06-428D-ABE6-156981BF6343}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{A9DB1D77-CE06-428D-ABE6-156981BF6343}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{A9DB1D77-CE06-428D-ABE6-156981BF6343}.Debug|iPhone.Build.0 = Debug|iPhone
+		{A9DB1D77-CE06-428D-ABE6-156981BF6343}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{A9DB1D77-CE06-428D-ABE6-156981BF6343}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{A9DB1D77-CE06-428D-ABE6-156981BF6343}.Release|iPhone.ActiveCfg = Release|iPhone
+		{A9DB1D77-CE06-428D-ABE6-156981BF6343}.Release|iPhone.Build.0 = Release|iPhone
+		{A9DB1D77-CE06-428D-ABE6-156981BF6343}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{A9DB1D77-CE06-428D-ABE6-156981BF6343}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = PushNotify\PushNotify.csproj
+		StartupItem = PushNotify.Ios\PushNotify.Ios.csproj
 	EndGlobalSection
 EndGlobal
